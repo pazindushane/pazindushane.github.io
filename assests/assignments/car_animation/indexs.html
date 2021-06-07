@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Animation</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+
+        .sky{
+            height: 100vh;
+            /*width: 100%*/
+            background-image: url(assests/img/sky.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .road{
+            height: 200px;
+            width: 500%;
+            display: block;
+            background-image: url(assests/img/road.jpg);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background-repeat: repeat-x;
+            animation:road 5s linear infinite;
+        }
+
+        @keyframes road{
+            to{
+                transform: translateX(-3820px);
+            }
+        }
+
+        .city{
+            height: 250px;
+            width: 500%;
+            background-image: url(assests/img/city.png);
+            position: absolute;
+            bottom: 200px;
+            left: 0;
+            right: 0;
+            display: block;
+            z-index: 1;
+            background-repeat: repeat-x;
+            animation:city 20s linear infinite;
+        }
+
+        @keyframes city{
+            to{
+                transform: translateX(-1400px);
+            }
+        }
+
+        .car{
+            position: absolute;
+            width: 400px;
+            left:20%;
+            bottom: 100px;
+            z-index: 2;
+            animation: carAni 20s linear infinite;
+        }
+
+        @keyframes carAni{
+            0%{
+                left:20%;
+                bottom: 100px;
+            }
+            50%{
+                left:50%;
+                bottom: 60px;
+            }
+            100%{
+                left:20%;
+                bottom: 100px;
+            }
+        }
+
+        .car>img{
+            width: 300px;
+        }
+
+        .wheel>img{
+            width: 60px;
+        }
+
+        .wheel>img:nth-child(1){
+            margin: auto;
+            position: absolute;
+            left: 22px;
+            top: 160px;
+            bottom: 110px;
+            z-index: 2;
+            animation: wheel 2s linear infinite;
+        }
+
+        .wheel>img:nth-child(2){
+            margin: auto;
+            position: absolute;
+            right: 135px;
+            top: 160px;
+            bottom: 108px;
+            z-index: 2;
+            animation: wheel 2s linear infinite;
+        }
+
+        @keyframes wheel{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="sky">
+    <div class="road"></div>
+    <div class="city"></div>
+    <div class="car">
+        <img src="assests/img/car.png">
+        <div class="wheel">
+            <img src="assests/img/wheel.png">
+            <img src="assests/img/wheel.png">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

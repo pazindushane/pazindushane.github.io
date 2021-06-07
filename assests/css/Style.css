@@ -1,0 +1,4873 @@
+
+/*============================================Header===========================================*/
+
+header {
+    height: 65px;
+    background: white;
+    box-shadow: 1px 2px 7px 4px #bfa0a0d6;
+    position: relative;
+}
+
+header > img {
+    padding: 9px;
+    width: 91px;
+    margin: -5px;
+}
+
+header > ul {
+    position: absolute;
+    right: 3px;
+    font-size: 17px;
+    top: -11px;
+    list-style: none;
+}
+
+header > ul > li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    font-family: Quicksand ;
+    font-weight: bold;
+
+    color: #02B1DB;
+}
+
+header > ul > li > i {
+    color: black;
+    margin-right: 1px;
+}
+header > ul > li>a:link{
+    text-decoration: none;
+}
+
+header > ul > li>a:hover{
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+header > ul > li>a {
+    background-color: transparent;
+    color: #313131;
+}
+/*============================================Front Banner===========================================*/
+
+section.first{
+    height: 470px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.first>div.banner1>img{
+    transform: rotate(-180deg);
+    width: 850px;
+    height: 420px;
+    position: relative;
+    top: 24px;
+    left: 497px;
+}
+
+section.first>div.banner2{
+    position: absolute;
+    top: 59px;
+    left: 10px;
+}
+
+section.first>div.banner2>h3{
+    font-family: Quicksand ;
+    font-weight: bold;
+    font-size: 45px;
+    color: #02B1DB;
+
+}
+
+section.first>div.banner2>h3>span{
+    color: #313131;
+}
+
+section.first>div.banner2>h3.buffel{
+    font-family: Quicksand ;
+    font-weight: bold;
+    font-size: 45px;
+    color: #313131;
+
+}
+
+section.first>div.banner2>h3.buffel>span{
+    color: #313131;
+}
+
+section.first>div.banner2>h1{
+    font-family: ColorTube;
+    font-size: 55px;
+    color: #313131;
+
+}
+
+section.first>div.banner2>h1>span{
+    color: #02B1DB;
+}
+
+section.first>div.circleA{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    position: absolute;
+    top: 109px;
+    right: 88px;
+    border: 10px solid #077EB3;
+}
+
+section.first>div.circleA>img{
+    width: 214px;
+    height: 214px;
+    position: absolute;
+    top: -16px;
+    left: 2px;
+    bottom: 0;
+    right: 0;
+
+}
+
+section.first>div.circle1A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 120px;
+    top: 112px;
+
+}
+
+section.first>div.circle1A>img{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+    animation: wheel1 2s linear infinite;
+}
+
+@keyframes wheel1 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+section.first>div.Circle2A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 120px;
+    top: 302px;
+
+}
+
+section.first>div.Circle2A>img{
+    width: 66px;
+    height: 47px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    right: 0px;
+    bottom: 0px;
+    margin: 4px;
+    animation: wheel2 2s linear infinite;
+}
+
+@keyframes wheel2 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+section.first>div.Circle3A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 305px;
+    top: 215px;
+
+}
+
+section.first>div.Circle3A>img{
+    width: 120px;
+    height: 85px;
+    position: absolute;
+    bottom: -17px;
+    left: -33px;
+    animation: wheel3 2s linear infinite;
+}
+
+@keyframes wheel3 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*============================================About Me===========================================*/
+
+section.second{
+    height: 694px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.second>div.aboutme>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left:  550px;
+    position: absolute;
+}
+
+section.second>div.aboutme>h2>span{
+    color: #313131;
+}
+
+section.second>div.frames>img.framea{
+    width: 492px;
+    height: 538px;
+    top: 82px;
+    left: 50px;
+    position: absolute;
+}
+
+section.second>div.frames>img.frameb{
+    width: 300px;
+    height: 510px;
+    top: 48px;
+    left: 181px;
+    position: absolute;
+}
+
+section.second>div.frames>img.framec{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 298px;
+    opacity: 78%;
+}
+
+section.second>div.desc>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: #02B1DB;
+    top: 142px;
+    left: 646px;
+    position: absolute;
+}
+
+section.second>div.desc>p>span{
+    color: #313131;
+}
+
+section.second>div.desc>p:nth-child(2){
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 256px;
+    left: 646px;
+    position: absolute;
+}
+
+section.second>div.icona>a.location>img.loc{
+    width: 56px;
+    height: 55px;
+    position: absolute;
+    top: 449px;
+    right: 655px;
+}
+
+section.second>div.icona>a.location>p.pl{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 453px;
+    left: 697px;
+    position: absolute;
+}
+
+section.second>div.icona>img.loc1{
+    width: 65px;
+    height: 70px;
+    position: absolute;
+    top: 451px;
+    right: 343px;
+}
+
+section.second>div.icona>p.myold{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 456px;
+    left: 1004px;
+    position: absolute;
+}
+
+section.second>div.icona>img.loc2{
+    width: 81px;
+    height: 47px;
+    position: absolute;
+    top: 530px;
+    right: 643px;
+}
+
+section.second>div.icona>p.mynum{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 525px;
+    left: 696px;
+    position: absolute;
+}
+
+section.second>div.icona>a.mymail1>img.loc3{
+    width: 81px;
+    height: 82px;
+    position: absolute;
+    top: 514px;
+    right: 333px;
+}
+
+section.second>div.icona>a.mymail1>p.mymail{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 523px;
+    left: 1002px;
+    position: absolute;
+}
+
+section.second>div.btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+section.second>div.btn1>button.btn-1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #02B1DB;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #313131;
+    transition: ease-out 0.3s;
+    font-size: 19px;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 611px;
+    left: 1162px;
+}
+
+section.second>div.btn1>button.btn-1:hover{
+    box-shadow: inset 150px 0 0 0 #313131;
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+/*============================================ My Services ===========================================*/
+
+section.third{
+    height: 466px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.third>div.frame2>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 455px;
+    top: 298px;
+    opacity: 78%;
+    z-index: -1;
+}
+
+section.third>div.aboutme2>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 532px;
+    position: absolute;
+}
+
+section.third>div.aboutme2>h2>span{
+    color: #313131;
+}
+
+section.third>div.simages>img.fst{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 50px;
+
+}
+
+section.third>div.simages>div.simages-sec>div.tint1{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 50px;
+    background-color: red;
+    opacity: 20%;
+}
+
+section.third>div.simages>div.simages-sec>div.tint1{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages>div.simages-sec:hover>div.tint1{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
+}
+
+section.third>div.simages2>img.fst2{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 528px;
+
+}
+
+section.third>div.simages2>div.tint2{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 528px;
+    background-color: blue;
+    opacity: 20%;
+}
+
+section.third>div.simages2>div.tint2{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages2:hover>div.tint2{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
+}
+
+section.third>div.simages3>img.fst3{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 1011px;
+
+}
+
+section.third>div.simages3>div.tint3{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 1011px;
+    background-color: green;
+    opacity: 20%;
+}
+
+section.third>div.simages3>div.tint3{
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages3:hover>div.tint3{
+    transform: translateX(0px);
+    opacity: 20%;
+    cursor: pointer;
+}
+
+section.third>div.simages>div.simages-sec>div.detail1>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    top: 167px;
+    left: 95px;
+}
+
+section.third>div.simages>div.simages-sec>div.detail1>p{
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left: 122px;
+    color: white;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+section.third>div.simages>div.simages-sec>div.detail1>img{
+    position: absolute;
+    top: 253px;
+    left: 142px;
+    width: 61px;
+}
+
+section.third>div.simages>div.simages-sec>div.detail1{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+section.third>div.simages>div.simages-sec:hover>div.detail1{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+section.third>div.simages2>div.detail2>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    top: 167px;
+    left: 572px;
+}
+
+section.third>div.simages2>div.detail2>p{
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left: 597px;
+    color: white;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+section.third>div.simages2>div.detail2>img{
+    position: absolute;
+    top: 255px;
+    left: 625px;
+    width: 52px;
+}
+
+section.third>div.simages2>div.detail2{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages2:hover>div.detail2{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.third>div.simages3>div.detail3>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    top: 167px;
+    left: 1056px;
+}
+
+section.third>div.simages3>div.detail3>p{
+    position: absolute;
+    text-align: center;
+    top: 177px;
+    left: 1081px;
+    color: white;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+section.third>div.simages3>div.detail3>img{
+    position: absolute;
+    top: 252px;
+    left: 1111px;
+}
+
+section.third>div.simages3>div.detail3{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.third>div.simages3:hover>div.detail3{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*section.third>div.simages>div.simages-sec{*/
+/*    transform: translateY(100px);*/
+/*    opacity: 0;*/
+/*    transition: 0.5s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*section.third>div.simages>:hover>div.simages-sec{*/
+/*    transform: translateY(0px);*/
+/*    opacity: 1;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*section.third>div.simages>div.simages-sec{*/
+/*    transform: translateY(100px);*/
+/*    opacity: 0;*/
+/*    transition: 0.5s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*section.third>div.simages>:hover>div.simages-sec{*/
+/*    transform: translateY(0px);*/
+/*    opacity: 1;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*============================================ My Skills ===========================================*/
+
+section.fourth{
+    height: 905px;
+    border: 1px solid #02B1DB;
+    position: relative;
+    cursor: pointer;
+}
+
+section.fourth>div.frame3>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 320px;
+    opacity: 78%;
+    z-index: -2;
+}
+
+section.fourth>div.aboutme3>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left:  569px;
+    position: absolute;
+}
+
+section.fourth>div.aboutme3>h2>span{
+    color: #313131;
+}
+
+section.fourth>div.tab1{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 91px;
+    left: 58px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab1>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #E51F24;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+    /*display: none;*/
+}
+
+section.fourth>div.tab1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 259px;
+    width: 283px;
+    /*display: none;*/
+}
+section.fourth:hover>div.tab1{
+    display: block;
+}
+
+section.fourth>div.tab2{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 91px;
+    left: 721px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab2>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #00718B;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+section.fourth>div.tab2>h3>span{
+
+    color: #EA8900;
+
+}
+
+section.fourth>div.tab2>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 99px;
+    left: 259px;
+    width: 283px;
+}
+section.fourth:hover>div.tab2{
+    display: block;
+}
+
+section.fourth>div.tab3{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 494px;
+    left: 58px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab3>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #E96228;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+section.fourth>div.tab3>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 283px;
+}
+section.fourth:hover>div.tab3{
+    display: block;
+}
+
+section.fourth>div.tab4{
+    width: 569px;
+    height: 334px;
+    position: absolute;
+    top: 494px;
+    left: 721px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 35px 20px #777;
+    z-index: -1;
+    cursor: pointer;
+    display: none;
+}
+
+section.fourth>div.tab4>h3{
+    font-family: Quicksand;
+    font-size: 30px;
+    color: #D8B225;
+    position: absolute;
+    top: -4px;
+    left: 153px;
+}
+
+section.fourth>div.tab4>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    width: 283px;
+}
+
+section.fourth:hover>div.tab4{
+    display: block;
+}
+
+
+section.fourth>div.pbars{
+    width: 1347px;
+    height: 901px;
+    z-index: 10;
+    animation: 0.1ms fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    /*display: none;*/
+}
+
+/*section.fourth:hover>div.pbars{*/
+/*    display: block;*/
+/*}*/
+section.fourth>div.pbars>div.pbar1{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar2{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar3{
+    display: none;
+}
+section.fourth>div.pbars>div.pbar4{
+    display: none;
+}
+
+
+section.fourth>div.pbars:hover>div.pbar1>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 74px;
+    top: 153px;
+}
+section.fourth>div.pbars:hover>div.pbar1>svg>circle{
+    fill: transparent;
+    stroke: #0D86C1;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate1 1s forwards ;
+}
+
+@keyframes animate1 {
+    to{
+        stroke-dashoffset: 400;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar1>div.counter1{
+    position: absolute;
+    left: 131px;
+    top: 215px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: #E51F24;
+}
+
+
+section.fourth>div.pbars:hover>div.pbar2>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 738px;
+    top: 153px;
+}
+section.fourth>div.pbars:hover>div.pbar2>svg>circle{
+    fill: transparent;
+    stroke: #00718B;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate2 1s forwards ;
+}
+
+@keyframes animate2 {
+    to{
+        stroke-dashoffset: 320;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar2>div.counter2{
+    position: absolute;
+    left: 785px;
+    top: 209px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: #EA8900;
+}
+
+section.fourth>div.pbars:hover>div.pbar3>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 74px;
+    top: 553px;
+}
+section.fourth>div.pbars:hover>div.pbar3>svg>circle{
+    fill: transparent;
+    stroke: #E96228;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate3 1s forwards ;
+}
+
+@keyframes animate3 {
+    to{
+        stroke-dashoffset: 275;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar3>div.counter3{
+    position: absolute;
+    left: 131px;
+    top: 615px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: black;
+}
+
+section.fourth>div.pbars:hover>div.pbar4>svg{
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 738px;
+    top: 553px;
+}
+
+section.fourth>div.pbars:hover>div.pbar4>svg>circle{
+    fill: transparent;
+    stroke: #D8B225;
+    stroke-width: 15;
+    stroke-linecap: round;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: animate4 1s forwards ;
+}
+
+@keyframes animate4 {
+    to{
+        stroke-dashoffset: 200;
+
+    }
+
+}
+
+section.fourth>div.pbars:hover>div.pbar4>div.counter4{
+    position: absolute;
+    left: 793px;
+    top: 615px;
+    font-size: 56px;
+    font-family: digital-7;
+    /* font-weight: bold; */
+    color: black;
+}
+
+
+
+@keyframes fadeIn {
+    99% {
+        visibility: hidden;
+        /*display: none;*/
+    }
+    100% {
+        visibility: visible;
+        /*display: block;*/
+    }
+}
+
+section.fourth>div.pbars:hover>div.pbar1{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar2{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar3{
+    display: block;
+}
+section.fourth>div.pbars:hover>div.pbar4{
+    display: block;
+}
+
+
+/*============================================ Projects ===========================================*/
+
+section.fifth{
+    height: 563px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.fifth>div.frame4>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 456px;
+    top: 298px;
+    opacity: 78%;
+
+}
+
+section.fifth>div.aboutme4>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 578px;
+    position: absolute;
+}
+
+section.fifth>div.aboutme4>h2>span{
+    color: #313131;
+}
+
+section.fifth>div.pro1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #4AD883;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    left: 117px;
+    top:  150px;
+}
+
+section.fifth>div.pro2{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #6241A0;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 150px;
+    left: 522px;
+}
+
+section.fifth>div.pro3{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #111112;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 150px;
+    left: 931px;
+}
+
+section.fifth>div.pro1-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #4AD883;
+    transform: rotate(-46deg);
+    position: absolute;
+    left: 159px;
+    top: 138px;
+}
+
+section.fifth>div.pro2-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #6241A0;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 139px;
+    left: 562px;
+}
+
+section.fifth>div.pro3-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #111112;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 139px;
+    left: 975px;
+}
+
+section.fifth>div.pro1-1>img{
+    width: 244px;
+    height: 68px;
+    transform: rotate(46deg);
+    position: absolute;
+    align-items: center;
+    margin: -1px;
+    top: 71px;
+}
+
+section.fifth>div.pro2-1>img{
+    width: 202px;
+    height: 201px;
+    transform: rotate(27deg);
+    border-radius: 100%;
+    position: absolute;
+    align-items: center;
+    margin: 9px;
+    top: 1px;
+    left: 4px;
+}
+
+section.fifth>div.pro3-1>img{
+    width: 206px;
+    height: 208px;
+    transform: rotate(46deg);
+    position: absolute;
+    top: -12px;
+    margin: -2px;
+    left: 33px;
+}
+
+/*============================================ Assignments ===========================================*/
+
+section.sixth{
+    height: 530px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.sixth>div.frame5>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 320px;
+    opacity: 78%;
+}
+
+section.sixth>div.frame11>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 457px;
+    top: 534px;
+    opacity: 78%;
+
+}
+
+section.sixth>div.aboutme5>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 519px;
+    position: absolute;
+}
+
+section.sixth>div.aboutme5>h2>span{
+    color: #313131;
+}
+
+section.sixth>div.ass1>a>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 50px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass1>a>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.sixth>div.ass2>a>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 494px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass2>a>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.sixth>div.ass3>a>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 922px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass3>a>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+/*============================================ Education ===========================================*/
+
+section.seventh{
+    height: 1266px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.seventh>div.frame7>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 634px;
+    opacity: 78%;
+}
+
+section.seventh>div.frame12>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 456px;
+    top: 1120px;
+    opacity: 78%;
+
+}
+
+section.seventh>div.aboutme6>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 399px;
+    position: absolute;
+}
+
+section.seventh>div.aboutme6>h2>span{
+    color: #313131;
+}
+
+section.seventh>div.line1{
+    border-left: 9px solid gray;
+    height: 700px;
+    position: absolute;
+    top: 243px;
+    left: 670px;
+}
+
+section.seventh>div.sec1{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 94px;
+    top: 100px;
+}
+
+section.seventh>div.sec2{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 94px;
+    top: 470px;
+}
+
+section.seventh>div.sec3{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 94px;
+    top: 840px;
+}
+
+
+section.seventh>div.sec1>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec1>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec1>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: hotpink;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec1>div.prime2>img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+
+
+section.seventh>div.sec1>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec1>div.prime3>img{
+    width: 166px;
+    height: 249px;
+    position: absolute;
+    left: 100px;
+}
+
+
+section.seventh>div.sec2>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: -7px -7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec2>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec2>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: blueviolet;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec2>div.prime2>img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+section.seventh>div.sec2>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec2>div.prime3>img{
+    width: 240px;
+    height: 141px;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+section.seventh>div.sec3>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec3>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec3>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: mediumspringgreen;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec3>div.prime2>img{
+    width: 80px;
+    height: 58px;
+    position: absolute;
+    top: 23px;
+    left: 13px;
+}
+
+section.seventh>div.sec3>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec3>div.prime3>img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 28px;
+    left: 77px;
+}
+
+section.seventh>div.sec1{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec1{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.seventh>div.sec2{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec2{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.seventh>div.sec3{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec3{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*============================================ Interests ===========================================*/
+
+section.eighth{
+    height: 666px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.eighth>div.frame8>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 299px;
+    opacity: 78%;
+}
+
+section.eighth>div.aboutme7>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 556px;
+    position: absolute;
+}
+
+section.eighth>div.aboutme7>h2>span{
+    color: #313131;
+}
+
+section.eighth>div.hoby1>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 150px;
+    left: 236px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby2>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 150px;
+    left: 793px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby3>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 412px;
+    left: 236px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby4>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 412px;
+    left: 797px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby1>div.cam>img.cam1{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 177px;
+    left: 345px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1>div.cam>p.cam11{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 257px;
+    left: 311px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1>div.cam{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1:hover>div.cam{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+section.eighth>div.hoby2>div.trav>img.travel{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    top: 169px;
+    left: 893px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2>div.trav>p.travel1{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 261px;
+    left: 884px;
+    color: black;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2>div.trav{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2:hover>div.trav{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div>img{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    top: 429px;
+    left: 333px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 519px;
+    left: 338px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div.read{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3:hover>div.read{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div>img{
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    top: 428px;
+    left: 895px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 517px;
+    left: 900px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div.Gamin{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4:hover>div.Gamin{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*============================================ Feedback ===========================================*/
+
+section.ninth{
+    height: 666px;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+section.ninth>div.frame9>img{
+    width: 852px;
+    height: 561px;
+    transform: rotate(
+            -90deg
+    );
+    position: absolute;
+    right: -146px;
+    top: 146px;
+    opacity: 78%;
+}
+
+section.ninth>div.frame13>img{
+    width: 852px;
+    height: 561px;
+    transform: rotate(
+            -90deg
+    ) scaleY(-1);
+    position: absolute;
+    right: 639px;
+    top: 95px;
+    opacity: 78%;
+
+}
+
+section.ninth>div.aboutme8>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 425px;
+    position: absolute;
+}
+
+section.ninth>div.aboutme8>h2>span{
+    color: #313131;
+}
+
+section.ninth>div.tbox>p>input[type="text"]{
+    border: 3px solid #aaa;
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    position: absolute;
+    top: 166px;
+    left: 461px;
+    text-align: center;
+}
+
+section.ninth>div.tbox>p>input[type="text"]::placeholder{
+    text-align: center;
+    font-family: Quicksand;
+}
+
+section.ninth>div.tarea>p>textarea{
+    width: 550px;
+    height: 250px;
+    border: 3px solid #aaa;
+    border-radius: 30px;
+    outline: none;
+    position: absolute;
+    top: 279px;
+    left: 386px;
+    text-align: center;
+}
+
+section.ninth>div.tarea>p>textarea::placeholder{
+    text-align: center;
+    font-family: Quicksand;
+}
+
+
+section.ninth>div.btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+section.ninth>div.btn2>button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #02B1DB;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 #313131;
+    transition: ease-out 0.3s;
+    font-size: 19px;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 574px;
+    left: 788px;
+}
+
+section.ninth>div.btn2>button:hover{
+    box-shadow: inset 150px 0 0 0 #313131;
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+/*============================================ Footer ===========================================*/
+
+section.ten>div.column1{
+    height: 400px;
+    background-color: #01E2F3;
+    position: relative;
+    border-radius:50% 50% 0px 0px;
+
+}
+
+section.ten>div.column1>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #313131;
+    top: 16px;
+    left: 534px;
+    position: absolute;
+}
+
+section.ten>div.column1>div.column2>img{
+    width: 130px;
+    position: absolute;
+    top: 150px;
+    left: 617px;
+}
+
+section.ten>div.column1>div.column3{
+    position: absolute;
+    top: -24px;
+    left: 35px;
+}
+
+section.ten>div.column1>div.column3>img.social1{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 280px;
+    left: 284px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+
+}
+
+section.ten>div.column1>div.column3>img.social1:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 268px;
+    left: 384px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social2:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social3{
+    width: 75px;
+    height: 56px;
+    position: absolute;
+    top: 280px;
+    left: 488px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social3:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social4{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social4:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social5{
+    width: 111px;
+    height: 67px;
+    position: absolute;
+    top: 273px;
+    left: 696px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social5:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social6{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 271px;
+    left: 830px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social6:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social7{
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 275px;
+    left: 939px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social7:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+section.ten>div.column1>div.column4{
+    font-size: 16px;
+    font-family: Quicksand;
+    position: absolute;
+    top: 353px;
+    left: 476px;
+    font-weight: bold;
+    color: #777777;
+}
+
+section.ten>div.column1>div.newsteller{
+    width: 400px;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 165px;
+    left: -312px;
+    transition: all 3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    right: 220px;
+}
+
+section.ten>div.column1>div.newsteller>img{
+    width: 117px;
+    height: 75px;
+    position: absolute;
+    top: 10px;
+    left: 297px;
+}
+
+section.ten>div.column1>div.newsteller>h4{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+section.ten>div.column1>div.newsteller>p>input{
+    position: absolute;
+    top: 18px;
+    left: 24px;
+}
+
+section.ten>div.column1>div.newsteller>button{
+    position: absolute;
+    top: 54px;
+    left: 97px;
+    width: 114px;
+    height: 32px;
+    border: none;
+    color: white;
+    background-color: #02B1DB;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 #313131;
+    transition: ease-out 0.3s;
+    font-size: 19px;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+}
+
+section.ten>div.column1>div.newsteller>button:hover{
+    box-shadow: inset 150px 0 0 0 #313131;
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+section.ten>div.column1>div.newsteller:hover{
+    margin-left: 310px;
+    cursor: pointer;
+    background: #313131;
+    transition: all 3s;
+}
+
+/*========================================== Responsive ============================================*/
+
+@media all and (max-width: 320px) {
+    header {
+        height: 195px;
+        width: 318px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 95px;
+        margin: 67px;
+        margin-left: -2px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first{
+        width: 318px;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: -28px;
+        left: 10px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+        margin-left: -17px;
+        font-size: 40px;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+        margin-left: -14px;
+        font-size: 48px;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 18px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 18px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 80px;
+        top: -118px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 41px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 85px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 434px;
+        left: 1px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 668px;
+        right: 156px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 689px;
+        right: 85px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 769px;
+        left: 75px;
+        width: 165px;;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -22px;
+        left: 78px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        display: none;
+    }
+
+    section.second>div.icona>img.loc2 {
+        display: none;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        display: none;
+    }
+
+    section.second>div.icona>p.myold{
+        display: none;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.second{
+        width: 318px;
+        height: 853px;
+    }
+
+    section.third{
+        width: 318px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 62px;
+        position: absolute;
+    }
+
+    section.third>div.simages>img.fst{
+        position: absolute;
+        left: 33px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.tint1{
+        position: absolute;
+        left: 33px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>div{
+        position: absolute;
+        left: 81px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>p{
+        position: absolute;
+        left: 112px;
+    }
+
+    section.third>div.simages>div.simages-sec>div.detail1>img{
+        position: absolute;
+        left: 138px;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2{
+        display: none;
+    }
+
+    section.fourth{
+        width: 318px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 88px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 318px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 89px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 318px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 58px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 269px;
+        height: 127px;
+        position: absolute;
+        top: 137px;
+        left: 26px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 318px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 11px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 318px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 120px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 51px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 118px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 54px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 147px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 152px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 318px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: -9px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 281px;
+        position: absolute;
+        left: 17px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 278px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 17px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 164px;
+    }
+
+    section.ten{
+        width: 318px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 79px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 118px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -240px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 322px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 404px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 471px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 7px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+    header {
+        height: 195px;
+        width: 373px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 105px;
+        margin: 57px;
+        margin-left: -1px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: -28px;
+        left: 10px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 12px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 15px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 88px;
+        top: -121px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 62px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 115px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 434px;
+        left: 1px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 642px;
+        right: 184px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 664px;
+        right: 109px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 753px;
+        left: 105px;
+        width: 165px;;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -22px;
+        left: 108px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        display: none;
+    }
+
+    section.second>div.icona>img.loc2 {
+        display: none;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        display: none;
+    }
+
+    section.second>div.icona>p.myold{
+        display: none;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.first{
+        width: 373px;
+    }
+
+    section.second{
+        width: 373px;
+        height: 853px;
+    }
+
+    section.third{
+        width: 373px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 85px;
+        position: absolute;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2{
+        display: none;
+    }
+
+    section.fourth{
+        width: 373px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 112px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 373px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 120px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 373px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 83px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 312px;
+        height: 140px;
+        position: absolute;
+        top: 137px;
+        left: 36px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 373px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 11px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 373px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 120px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 51px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 118px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 54px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 147px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 152px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 373px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: 22px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 313px;
+        position: absolute;
+        left: 28px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 315px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 27px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 207px;
+    }
+
+    section.ten{
+        width: 373px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 108px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 144px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -225px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 335px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 421px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 493px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 37px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px) {
+
+    header {
+        height: 195px;
+        width: 423px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 105px;
+        margin: 57px;
+        margin-left: -1px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: -28px;
+        left: 10px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 12px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 15px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 88px;
+        top: -121px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 82px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 434px;
+        left: 1px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 642px;
+        right: 212px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 664px;
+        right: 133px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 753px;
+        left: 105px;
+        width: 165px;;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -22px;
+        left: 127px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -5px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        display: none;
+    }
+
+    section.second>div.icona>img.loc2 {
+        display: none;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        display: none;
+    }
+
+    section.second>div.icona>p.myold{
+        display: none;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.first{
+        width: 423px;
+    }
+
+    section.second{
+        width: 423px;
+        height: 853px;
+    }
+
+    section.third{
+        width: 423px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 115px;
+        position: absolute;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2{
+        display: none;
+    }
+
+    section.fourth{
+        width: 423px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 132px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 423px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 149px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 423px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 105px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 312px;
+        height: 140px;
+        position: absolute;
+        top: 137px;
+        left: 57px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 423px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 23px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 423px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 138px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 171px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 166px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 167px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 423px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: 44px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 313px;
+        position: absolute;
+        left: 51px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 315px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 52px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 228px;
+    }
+
+    section.ten{
+        width: 423px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 163px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -225px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 335px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 421px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 482px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 62px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        width: 96px;
+        height: 58px;
+        position: absolute;
+        top: 267px;
+        left: 561px;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+
+    header {
+        height: 195px;
+        width: 766px;
+    }
+
+    header > img {
+        padding: 9px;
+        width: 105px;
+        margin: 57px;
+        margin-left: -1px;
+    }
+
+    header > ul {
+        display: none;
+    }
+
+    section.first>div.circleA>img{
+        display: none;
+    }
+
+    section.first>div.circleA{
+        display: none;
+    }
+
+    section.first>div.banner2 {
+        position: absolute;
+        top: 42px;
+        left: 60px;
+    }
+
+    section.first>div.banner2>h3 {
+        text-align: center;
+    }
+
+    section.first>div.banner2>h1 {
+        text-align: center;
+    }
+
+    section.first>div.circle1A {
+        position: absolute;
+        right: 12px;
+        top: -181px;
+    }
+
+    section.first>div.Circle3A {
+        position: absolute;
+        right: 15px;
+        top: -61px;
+    }
+    section.first>div.Circle2A {
+        position: absolute;
+        right: 88px;
+        top: -121px;
+    }
+
+    section.first>div.banner1>img{
+        display: none;
+    }
+
+    section.second>div.frames>img.framea {
+        width: 246px;
+        height: 269px;
+        top: 102px;
+        left: 82px;
+        position: absolute;
+    }
+
+    section.second>div.frames>img.frameb {
+        width: 150px;
+        height: 255px;
+        top: 85px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.second>div.desc>p {
+        top: 303px;
+        left: -22px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.desc>p:nth-child(2) {
+        top: 177px;
+        left: 291px;
+        position: absolute;
+    }
+
+    section.second>div.icona>a.mymail1>img.loc3 {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: 420px;
+        right: 129px;
+    }
+
+    section.second>div.icona>a.location>img.loc {
+        width: 50px;
+        height: 47px;
+        position: absolute;
+        top: 445px;
+        right: 58px;
+    }
+
+    section.second>div.btn1>button.btn-1 {
+        position: absolute;
+        top: 514px;
+        left: 548px;
+        width: 165px;
+    }
+
+    section.second>div.aboutme>h2 {
+        top: -13px;
+        left: 134px;
+        position: absolute;
+        font-size: 35px;
+    }
+
+    section.second>div.desc>p {
+        top: 67px;
+        left: 308px;
+        position: absolute;
+        text-align: center;
+        padding: 48px;
+    }
+
+    section.second>div.icona>img.loc1 {
+        width: 65px;
+        height: 70px;
+        position: absolute;
+        top: 366px;
+        right: 178px;
+    }
+
+    section.second>div.icona>img.loc2 {
+        width: 71px;
+        height: 40px;
+        position: absolute;
+        top: 380px;
+        right: 410px;
+    }
+
+    section.second>div.icona>a.location>p.pl{
+        display: none;
+    }
+
+    section.second>div.icona>p.mynum{
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 18px;
+        color: #313131;
+        top: 375px;
+        left: 356px;
+        position: absolute;
+    }
+
+    section.second>div.icona>p.myold{
+        font-family: Quicksand;
+        font-weight: bold;
+        font-size: 18px;
+        color: #313131;
+        top: 374px;
+        left: 597px;
+    }
+
+    section.second>div.icona>a.mymail1>p.mymail{
+        display: none;
+    }
+
+    section.first{
+        width: 766px;
+    }
+
+    section.second {
+        width: 766px;
+        height: 627px;
+    }
+
+    section.third{
+        width: 766px;
+    }
+
+    section.third>div.aboutme2>h2{
+        font-size: 35px;
+        top: -19px;
+        left: 298px;
+        position: absolute;
+    }
+
+    section.third>div.simages3{
+        display: none;
+    }
+
+    section.third>div.simages2>img.fst2{
+        width: 257px;
+        height: 178px;
+        border-radius: 20px;
+        position: absolute;
+        top: 157px;
+        left: 464px;
+    }
+
+    section.third>div.simages2>div.tint2{
+        width: 257px;
+        height: 178px;
+        border-radius: 20px;
+        position: absolute;
+        top: 157px;
+        left: 464px;
+        background-color: blue;
+        opacity: 20%;
+    }
+
+    section.third>div.simages2>div.detail2>div{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: 5px solid white;
+        position: absolute;
+        top: 167px;
+        left: 514px;
+    }
+
+    section.third>div.simages2>div.detail2>p{
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        left: 547px;
+        color: white;
+        font-family: Quicksand;
+        font-size: 20px;
+    }
+
+    section.third>div.simages2>div.detail2>img{
+        position: absolute;
+        top: 252px;
+        left: 573px;
+    }
+
+    section.fourth{
+        width: 766px;
+    }
+
+    section.fourth>div.aboutme3>h2{
+        font-size: 35px;
+        top: -20px;
+        left: 132px;
+        position: absolute;
+    }
+
+    section.fourth>div.pbar2{
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        top: 143px;
+        left: 46px;
+    }
+
+    section.fourth>div.pbar2>img{
+        width: 66px;
+        height: 67px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+
+    section.fourth>div.progress-des1>h3{
+        font-size: 21px;
+        top: 91px;
+        left: 123px;
+    }
+
+    section.fourth>div.progress-des1>p{
+        text-align: center;
+        font-size: 17px;
+        position: absolute;
+        top: 140px;
+        left: 133px;
+    }
+
+    section.fourth>div.pbar1{
+        width: 73px;
+        height: 46px;
+        position: absolute;
+        top: 326px;
+        left: 66px;
+    }
+
+    section.fourth>div.pbar1>img{
+        width: 85px;
+        height: 58px;
+        margin-left: -11px;
+        margin-top: 18px;
+    }
+
+    section.fifth{
+        width: 766px;
+        height: 494px;
+    }
+
+    section.fifth>div.aboutme4>h2{
+        font-size: 35px;
+        top: -21px;
+        left: 149px;
+        position: absolute;
+    }
+
+    section.fifth>div.pro1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 66px;
+        top: 166px;
+    }
+
+    section.fifth>div.pro1-1{
+        width: 207px;
+        height: 197px;
+        position: absolute;
+        left: 105px;
+        top: 155px;
+    }
+
+    section.fifth>div.pro1-1>img{
+        width: 224px;
+        height: 58px;
+        transform: rotate(
+                47deg
+        );
+
+    }
+
+    section.fifth>div.pro3{
+        display: none;
+    }
+
+    section.fifth>div.pro3-1{
+        display: none;
+    }
+
+    section.fifth>div.pro2{
+        display: none;
+    }
+
+    section.fifth>div.pro2-1{
+        display: none;
+    }
+
+
+
+    section.sixth{
+        width: 766px;
+        height: 408px;
+    }
+
+    section.sixth>div.aboutme5>h2{
+        font-size: 35px;
+        top: -15px;
+        left: 105px;
+        position: absolute;
+    }
+
+    section.sixth>div.ass1>a>img{
+        width: 312px;
+        height: 140px;
+        position: absolute;
+        top: 137px;
+        left: 57px;
+    }
+
+    section.sixth>div.ass3>a>img{
+        display: none;
+    }
+
+    section.sixth>div.ass2>a>img{
+        display: none;
+    }
+
+    section.seventh{
+        width: 766px;
+        height: 1328px;
+    }
+
+    section.seventh>div.aboutme6>h2{
+        font-size: 35px;
+        top: -16px;
+        text-align: center;
+        position: absolute;
+        left: 23px;
+    }
+
+    section.seventh>div.sec1{
+        width: 373px;
+        height: 416px;
+        position: absolute;
+        left: 3px;
+        top: 100px;
+    }
+
+    section.seventh>div.sec2{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 423px;
+    }
+
+    section.seventh>div.sec3{
+        width: 373px;
+        position: absolute;
+        left: 3px;
+        height: 469px;
+    }
+
+    section.seventh>div.sec1>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 50px;
+        left: 29px;
+    }
+
+    section.seventh>div.sec1>div.prime3>img{
+        width: 104px;
+        height: 164px;
+        position: absolute;
+        left: 65px;
+        top: -7px;
+    }
+
+    section.seventh>div.sec1>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 234px;
+        left: 121px;
+    }
+
+    section.seventh>div.sec1>div.prime1>p{
+        font-size: 22px;
+        margin-top: 17px;
+    }
+
+    section.seventh>div.sec2>div.prime1{
+        width: 225px;
+        height: 156px;
+        position: absolute;
+        top: 65px;
+        left: 32px;
+    }
+
+    section.seventh>div.sec2>div.prime1>p{
+        font-size: 23px;
+        margin-top: 12px;
+    }
+
+    section.seventh>div.sec2>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 242px;
+        left: 114px;
+    }
+
+    section.seventh>div.sec2>div.prime3>img{
+        width: 200px;
+        height: 105px;
+        position: absolute;
+        top: 26px;
+        left: 16px;
+    }
+
+    section.seventh>div.sec3>div.prime3{
+        width: 234px;
+        height: 153px;
+        position: absolute;
+        top: 70px;
+        left: 26px;
+    }
+
+    section.seventh>div.sec3>div.prime3>img{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 16px;
+        left: 59px;
+    }
+
+    section.seventh>div.sec3>div.prime1{
+        width: 258px;
+        height: 169px;
+        position: absolute;
+        top: 258px;
+        left: 90px;
+    }
+
+    section.seventh>div.sec3>div.prime1>p{
+        font-size: 24px;
+        margin-top: 28px;
+    }
+
+    section.seventh>div.line1{
+        display: none;
+    }
+
+    section.seventh>div.sec1>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec2>div.prime2{
+        display: none;
+    }
+
+    section.seventh>div.sec3>div.prime2{
+        display: none;
+    }
+
+    section.eighth{
+        width: 766px;
+    }
+
+    section.eighth>div.aboutme7>h2{
+        font-size: 35px;
+        top: -13px;
+        left: 138px;
+        position: absolute;
+    }
+
+    section.eighth>div.hoby1>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        top: 150px;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby1>div.cam>img.cam1{
+        position: absolute;
+        top: 161px;
+        left: 171px;
+    }
+
+    section.eighth>div.hoby1>div.cam>p.cam11{
+        position: absolute;
+        top: 235px;
+        left: 145px;
+    }
+
+    section.eighth>div.hoby3>img{
+        width: 282px;
+        height: 157px;
+        position: absolute;
+        left: 69px;
+    }
+
+    section.eighth>div.hoby3>div>img{
+        width: 93px;
+        height: 93px;
+        position: absolute;
+        left: 166px;
+    }
+
+    section.eighth>div.hoby3>div>p{
+        position: absolute;
+        top: 506px;
+        left: 167px;
+    }
+
+    section.eighth>div.hoby2{
+        display: none;
+    }
+
+    section.eighth>div.hoby4{
+        display: none;
+    }
+
+    section.ninth{
+        width: 766px;
+        height: 572px;
+    }
+
+    section.ninth>div.aboutme8>h2{
+        text-align: center;
+        font-size: 35px;
+        top: -4px;
+        left: 44px;
+        position: absolute;
+    }
+
+    section.ninth>div.tbox>p>input[type="text"]{
+        width: 313px;
+        position: absolute;
+        left: 51px;
+    }
+
+    section.ninth>div.tarea>p>textarea{
+        width: 315px;
+        height: 209px;
+        position: absolute;
+        top: 258px;
+        left: 52px;
+    }
+
+    section.ninth>div.btn2>button{
+        width: 140px;
+        height: 40px;
+        position: absolute;
+        top: 497px;
+        left: 228px;
+    }
+
+    section.ten{
+        width: 766px;
+    }
+
+    section.ten>div.column1{
+        height: 369px;
+    }
+
+    section.ten>div.column1>h2{
+        font-size: 30px;
+        top: 35px;
+        left: 125px;
+        position: absolute;
+    }
+
+    section.ten>div.column1>div.column2>img{
+        width: 105px;
+        position: absolute;
+        top: 129px;
+        left: 163px;
+    }
+
+    section.ten>div.column1>div.column3{
+        position: absolute;
+        left: -225px;
+    }
+
+    section.ten>div.column1>div.column3>img.social1{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 280px;
+        left: 256px;
+    }
+
+    section.ten>div.column1>div.column3>img.social2{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        top: 270px;
+        left: 335px;
+    }
+
+    section.ten>div.column1>div.column3>img.social3{
+        width: 67px;
+        height: 49px;
+        position: absolute;
+        top: 275px;
+        left: 421px;
+    }
+
+    section.ten>div.column1>div.column3>img.social4{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: 482px;
+    }
+
+    section.ten>div.column1>div.column4{
+        font-size: 12px;
+        position: absolute;
+        top: 334px;
+        left: 62px;
+    }
+
+    section.ten>div.column1>div.newsteller>p>input{
+        width: 236px;
+    }
+
+    section.ten>div.column1>div.newsteller>img{
+        width: 97px;
+        height: 62px;
+        position: absolute;
+        left: 260px;
+    }
+
+    section.ten>div.column1>div.newsteller{
+        width: 345px;
+        position: relative;
+        top: 148px;
+        left: -273px;
+    }
+
+    section.ten>div.column1>div.newsteller:hover{
+        margin-left: 275px;
+        cursor: pointer;
+        background: #313131;
+        transition: all 3s;
+    }
+
+    section.ten>div.column1>div.column3>img.social5{
+        width: 96px;
+        height: 58px;
+        position: absolute;
+        top: 267px;
+        left: 561px;
+    }
+
+    section.ten>div.column1>div.column3>img.social6{
+        display: none;
+    }
+
+    section.ten>div.column1>div.column3>img.social7{
+        display: none;
+    }
+
+}
+
